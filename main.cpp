@@ -7,7 +7,7 @@ using namespace std;
  i. Create a class that holds Money objects
  ii. What does the class do:
 
-    it holds a value of money
+    stores balance (in cents)
 
     mutators and accessors
     setters and getters
@@ -19,12 +19,12 @@ using namespace std;
     setters:
     make a deposit
     make a withdrawal
-
+     
  */
 
 class Money{
 private:
-    double* all_cents; //maybe it's an pointer
+    double* all_cents; //Let's try it as a pointer storing on the heap
 
 public:
 
